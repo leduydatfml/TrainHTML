@@ -13,7 +13,6 @@ body {
   background-size: cover;
 }
 .first-header {
-  /* background-color: red; */
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
@@ -157,4 +156,7 @@ body {
 .post-item:last-child {
   grid-column: 4/5;
   grid-row: 2/3;
+}
+#msg {
+  color: #000;
 }
